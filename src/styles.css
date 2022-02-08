@@ -1,0 +1,31 @@
+.App {
+  font-family: rubrik light;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 8px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button {
+  margin: 10px;
+  min-width: 100px;
+  height: 30px;
+  color: rgb(255, 255, 255);
+  background-color: #64bd5f;
+  border-color: #64bd5f;
+  border-radius: 4px;
+  border-style: solid;
+  letter-spacing: 2px;
+}
+
+button:hover {
+  background-color: #44973f;
+  border-color: #44973f;
+}
